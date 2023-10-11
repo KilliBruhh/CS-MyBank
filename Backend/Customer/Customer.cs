@@ -41,10 +41,14 @@ public class Customer
             {
                 Console.Write("Incorrect Date Template");
             }   
-        }
-
-
-            
+        }        
     }
- 
+
+    public void printCustomer(Customer c)
+    {
+        Console.WriteLine("Name: " + c.Name);
+        Console.WriteLine("Contact Phone: " + c.ContactPhoneNumber);
+        Console.WriteLine("Birthday: " + c.Birthday);
+    }
+
 }
